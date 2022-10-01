@@ -1,11 +1,13 @@
 <html>
 
 <head>
-    <title>Heading Demo</title>
+  <title>Plotly Demo</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
 <body>
-     <center>
+    <center>
         <ul>
             <a href="index.html">Home</a>
             <a href="Heading.html">Heading Demo</a>
@@ -21,19 +23,15 @@
         </ul>
         </center>
 
-    <h1>Level 1 Heading</h1>
-    <h2>Level 2 Heading</h2>
-    <h3>Level 3 Heading</h3>
-    <h4>Level 4 Heading</h4>
-    <h5>Level 5 Heading</h5>
+  <div id="plot"></div>
 
-    <footer>
-        <center>
-            <hr>
-            <p>&copy; IST 226 2022</p>
-        </center>
-    </footer>
+  <select id="selDataset">
+    <option value="dataset1">DataSet1</option>
+    <option value="dataset2">DataSet2</option>
+  </select>
 
-    </body>
+  <script src="plots.js"></script>
+
+</body>
 
 </html>
